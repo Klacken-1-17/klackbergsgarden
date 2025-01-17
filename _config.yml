@@ -1,8 +1,8 @@
 # Site settings
 title: Klackbergsgården
 description: En oas i Bergslagens hjärta
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol, e.g. http://example.com
+baseurl: "/klackbergsgarden" # the subpath of your site, e.g. /blog
+url: "https://jdahlborg.github.io/" # the base hostname & protocol, e.g. http://example.com
 permalink: pretty
 
 # Build settings
@@ -24,7 +24,7 @@ exclude:
 
 # Social media
 social:
-  facebook: your-facebook-url
+  facebook: https://www.facebook.com/klackbergsgarden.se
   twitter: your-twitter-handle
   instagram: your-instagram-handle
 

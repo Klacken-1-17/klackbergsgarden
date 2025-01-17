@@ -1,0 +1,34 @@
+# Site settings
+title: Klackbergsgården
+description: En oas i Bergslagens hjärta
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+  - .github/
+  - .gitignore
+
+# Social media
+social:
+  facebook: your-facebook-url
+  twitter: your-twitter-handle
+  instagram: your-instagram-handle
+
+# Contact information
+contact:
+  email: info@klackbergsgarden.se
+  phone: +46 (0)223-220 33
+  address: Klackbergsvägen 103, 738 91 Norberg 

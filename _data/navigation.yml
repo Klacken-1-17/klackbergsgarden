@@ -1,0 +1,12 @@
+- name: Hem
+  link: /
+- name: Om oss
+  link: /om
+- name: Rum
+  link: /rum
+- name: Omgivningar
+  link: /omgivningar
+- name: Blog
+  link: /blog
+- name: Kontakt
+  link: /kontakt

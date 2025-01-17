@@ -4,24 +4,13 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarsExample04">
        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-             <a class="nav-link" href="index.html">Hem</a>
-          </li>
-          <li class="nav-item">
-             <a class="nav-link" href="about.html">Om</a>
-          </li>
-          <li class="nav-item">
-             <a class="nav-link" href="room.html">Rum</a>
-          </li>
-          <li class="nav-item">
-             <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-             <a class="nav-link" href="blog.html">Blog</a>
-          </li>
-          <li class="nav-item">
-             <a class="nav-link" href="contact.html">Kontakta oss</a>
-          </li>
+         {% for item in site.data.navigation %}
+         <li class="nav-item">
+            <a href="{{ item.link }}" class="nav-link{% if page.url == item.link %} active{% endif %}">
+               {{ item.name }}
+            </a>
+         </li>
+         {% endfor %}
        </ul>
     </div>
  </nav>

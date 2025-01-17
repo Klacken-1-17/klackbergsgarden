@@ -3,6 +3,7 @@ title: Klackbergsgården
 description: En oas i Bergslagens hjärta
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol, e.g. http://example.com
+permalink: pretty
 
 # Build settings
 markdown: kramdown

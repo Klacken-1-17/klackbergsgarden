@@ -14,12 +14,9 @@
              <div class="col-md-4">
                 <h3>Meny</h3>
                 <ul class="link_menu">
-                   <li class="active"><a href="#">Hem</a></li>
-                   <li><a href="about.html">Om oss</a></li>
-                   <li><a href="room.html">Våra rum</a></li>
-                   <li><a href="gallery.html">Gallery</a></li>
-                   <li><a href="blog.html">Blog</a></li>
-                   <li><a href="contact.html">Kontakta oss</a></li>
+                  {% for item in site.data.navigation %}
+                  <li{% if page.url == item.link %} class="active"{% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
+                  {% endfor %}
                 </ul>
              </div>
              <div class="col-md-4">
@@ -53,3 +50,10 @@
     </div>
  </footer>
  <!-- end footer -->
+<!-- Javascript files-->
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/jquery-3.0.0.min.js"></script>
+<!-- sidebar -->
+<script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="/js/custom.js"></script>

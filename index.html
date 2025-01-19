@@ -35,26 +35,7 @@ layout: default
       <div class="container">
          <div class="row">
             <div class="col-md-5">
-               <div class="book_room">
-                  <h1>Boka rum online</h1>
-                  <form class="book_now">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <span>Incheckning</span>
-                           <img class="date_cua" src="{{ site.baseurl }}/images/date.png">
-                           <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy">
-                        </div>
-                        <div class="col-md-12">
-                           <span>Utcheckning</span>
-                           <img class="date_cua" src="{{ site.baseurl }}/images/date.png">
-                           <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy">
-                        </div>
-                        <div class="col-md-12">
-                           <button class="book_btn">Boka nu</button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
+               {% include booking.html %}
             </div>
          </div>
       </div>
@@ -134,55 +115,5 @@ layout: default
 </div>
 <!-- end our_room -->
 {% include gallery.html %}
-<!-- blog -->
-<div  class="blog">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-12">
-            <div class="titlepage">
-               <h2>Blog</h2>
-               <p>Lorem Ipsum available, but the majority have suffered </p>
-            </div>
-         </div>
-      </div>
-      <div class="row">
-         <div class="col-md-4">
-            <div class="blog_box">
-               <div class="blog_img">
-                  <figure><img src="{{ site.baseurl }}/images/blog1.jpg" alt="#"/></figure>
-               </div>
-               <div class="blog_room">
-                  <h3>Bed Room</h3>
-                  <span>The standard chunk </span>
-                  <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are   </p>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-4">
-            <div class="blog_box">
-               <div class="blog_img">
-                  <figure><img src="{{ site.baseurl }}/images/blog2.jpg" alt="#"/></figure>
-               </div>
-               <div class="blog_room">
-                  <h3>Bed Room</h3>
-                  <span>The standard chunk </span>
-                  <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are   </p>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-4">
-            <div class="blog_box">
-               <div class="blog_img">
-                  <figure><img src="{{ site.baseurl }}/images/blog3.jpg" alt="#"/></figure>
-               </div>
-               <div class="blog_room">
-                  <h3>Bed Room</h3>
-                  <span>The standard chunk </span>
-                  <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are   </p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
+{% include aktiviteter.html %}
 {% include contact.html %}

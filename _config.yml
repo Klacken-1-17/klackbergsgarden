@@ -5,6 +5,9 @@ url: https://jdahlborg.github.io # the base hostname & protocol, e.g. http://exa
 baseurl: /klackbergsgarden # the subpath of your site, e.g. /blog
 permalink: pretty
 
+formspree_booking_form_id: xlddydzo  # Formspree booking form ID
+formspree_contact_form_id: xgvvjojn  # Formspree contact form ID
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-minimal

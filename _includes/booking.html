@@ -1,0 +1,20 @@
+<div class="book_room">
+    <h1>Boka rum online</h1>
+    <form action="https://formspree.io/f/{{ site.formspree_booking_form_id }}" method="POST" class="book_now">
+       <div class="row">
+          <div class="col-md-12">
+             <span>Incheckning</span>
+             <img class="date_cua" src="{{ site.baseurl }}/images/date.png">
+             <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy">
+          </div>
+          <div class="col-md-12">
+             <span>Utcheckning</span>
+             <img class="date_cua" src="{{ site.baseurl }}/images/date.png">
+             <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy">
+          </div>
+          <div class="col-md-12">
+             <button class="book_btn">Boka nu</button>
+          </div>
+       </div>
+    </form>
+ </div>

@@ -1,12 +1,12 @@
 - name: Hem
   link: /
-- name: Om oss
-  link: /om
 - name: Rum
   link: /rum
+- name: Konferenser & grupper
+  link: /konferenser
 - name: Omgivningar
   link: /omgivningar
-- name: Blog
-  link: /blog
+- name: Aktiviteter
+  link: /aktiviteter
 - name: Kontakt
   link: /kontakt

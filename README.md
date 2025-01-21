@@ -34,7 +34,7 @@ To run locally:
    bundle exec jekyll serve
    ```
 
-3. Open http://localhost:4000 in your browser to preview the site.
+3. Open http://localhost:4000/klackbergsgarden in your browser to preview the site.
 
 ## Domain
 

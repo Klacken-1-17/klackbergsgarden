@@ -2,7 +2,8 @@
     <h1>Boka rum online</h1>
     <form action="https://formsubmit.co/{{ site.formsubmit_email }}" method="POST" class="book_now">
       <input type="hidden" name="_template" value="table">
-      <input type="hidden" name="_autoresponse" value="Tack för din bokning! Vi återkommer så snart som möjligt med bekräftelse.">
+      <input type="hidden" name="_replyto" value="info@klackbergsgarden.se">
+      <input type="hidden" name="_autoresponse" value="Välkommer till Klackbergsgården! Tack för din bokning! Vi återkommer så snart som möjligt med bekräftelse.">
       <input type="hidden" name="_subject" value="Onlinebookning!">
       <input type="hidden" name="_next" value="{{ site.baseurl }}/tack">
       <div class="row">

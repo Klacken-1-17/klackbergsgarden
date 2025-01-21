@@ -1,11 +1,11 @@
 # Site settings
 title: Klackbergsgården
 description: En oas i Bergslagens hjärta
-url: https://klacken-1-17.github.io # the base hostname & protocol, e.g. http://example.com
+url: https://klackbergsgarden.se # the base hostname & protocol, e.g. http://example.com
 baseurl: /klackbergsgarden # the subpath of your site, e.g. /blog
 permalink: pretty
 
-formsubmit_email: johan@dahlborg.se
+formsubmit_email: info@klackbergsgarden.se
 
 # Build settings
 markdown: kramdown

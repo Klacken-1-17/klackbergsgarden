@@ -12,16 +12,16 @@
              <form id="request" action="https://formspree.io/f/{{ site.formspree_contact_form_id }}" method="POST" class="main_form">
                 <div class="row">
                    <div class="col-md-12 ">
-                      <input class="contactus" placeholder="Namn" type="type" name="Name"> 
+                      <input class="contactus" placeholder="Namn" type="text" name="Name"> 
                    </div>
                    <div class="col-md-12">
-                      <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                      <input class="contactus" placeholder="Email" type="email" name="Email"> 
                    </div>
                    <div class="col-md-12">
-                      <input class="contactus" placeholder="Telefonnummer" type="type" name="Phone Number">                          
+                      <input class="contactus" placeholder="Telefonnummer" type="tel" name="Phone Number">                          
                    </div>
                    <div class="col-md-12">
-                      <textarea class="textarea" placeholder="Meddelande" type="type" Message="Name"></textarea>
+                      <textarea class="textarea" placeholder="Meddelande" name="Message"></textarea>
                    </div>
                    <div class="col-md-12">
                       <button class="send_btn">Skicka</button>

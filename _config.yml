@@ -25,12 +25,6 @@ exclude:
   - .github/
   - .gitignore
 
-# Social media
-social:
-  facebook: https://www.facebook.com/klackbergsgarden.se
-  twitter: your-twitter-handle
-  instagram: your-instagram-handle
-
 # Contact information
 contact:
   email: info@klackbergsgarden.se

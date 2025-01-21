@@ -303,10 +303,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll
   jekyll-feed
   jekyll-seo-tag
   tzinfo-data
+  webrick
 
 BUNDLED WITH
    2.6.3

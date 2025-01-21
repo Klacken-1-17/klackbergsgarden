@@ -1,20 +1,52 @@
 <div class="book_room">
     <h1>Boka rum online</h1>
     <form action="https://formsubmit.co/{{ site.formsubmit_email }}" method="POST" class="book_now">
-       <div class="row">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_autoresponse" value="Tack för din bokning! Vi återkommer så snart som möjligt med bekräftelse.">
+      <input type="hidden" name="_subject" value="Onlinebookning!">
+      <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks">
+      <div class="row">
           <div class="col-md-12">
-             <span>Incheckning</span>
-             <img class="date_cua" src="{{ site.baseurl }}/images/date.png">
-             <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy">
+             <input type="text" name="name" class="online_book" placeholder="Namn" required>
+          </div>
+          <div class="col-md-12">  
+             <input type="email" name="email" class="online_book" placeholder="Epost" required>
           </div>
           <div class="col-md-12">
-             <span>Utcheckning</span>
-             <img class="date_cua" src="{{ site.baseurl }}/images/date.png">
-             <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy">
+            <div class="row">
+               <div class="col-md-6">
+                  <span>Incheckning</span>
+                  <input type="date" name="check_in" required>
+               </div>
+               <div class="col-md-6">
+                  <span>Utcheckning</span>
+                  <input type="date" name="check_out" required>
+               </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row">
+               <div class="col-md-6">
+                  <span>Antal gäster</span>
+                  <input type="number" name="guests" class="online_book" placeholder="Antal gäster" value="1" required>
+               </div>
+               <div class="col-md-6">
+                  <span>Rumstyp</span>
+                  <select name="room_type" class="online_book" required>
+                     <option value="" disabled selected>Välj rumstyp</option>
+                     <option value="single">Enkelrum</option>
+                     <option value="double">Tvåbäddsrum</option>
+                     <option value="suite">Familjerum</option>
+                  </select>
+               </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+             <textarea placeholder="Specialönskemål (valfritt)" class="online_book" name="special_requests" rows="5"></textarea>
           </div>
           <div class="col-md-12">
              <button class="book_btn">Boka nu</button>
           </div>
        </div>
     </form>
- </div>
+ </div> 

@@ -5,8 +5,7 @@ url: https://klacken-1-17.github.io # the base hostname & protocol, e.g. http://
 baseurl: /klackbergsgarden # the subpath of your site, e.g. /blog
 permalink: pretty
 
-formspree_booking_form_id: xlddydzo  # Formspree booking form ID
-formspree_contact_form_id: xgvvjojn  # Formspree contact form ID
+formsubmit_email: johan@dahlborg.se
 
 # Build settings
 markdown: kramdown

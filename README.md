@@ -31,7 +31,7 @@ To run locally:
 
 2. Start the Jekyll development server:
    ```
-   bundle exec jekyll serve
+   bundle exec jekyll serve --config _config.yml,_config_dev.yml
    ```
 
 3. Open http://localhost:4000/klackbergsgarden in your browser to preview the site.

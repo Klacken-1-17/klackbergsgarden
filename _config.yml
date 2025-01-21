@@ -2,7 +2,7 @@
 title: Klackbergsgården
 description: En oas i Bergslagens hjärta
 url: https://klackbergsgarden.se # the base hostname & protocol, e.g. http://example.com
-baseurl: /klackbergsgarden # the subpath of your site, e.g. /blog
+baseurl: "" # remove the subpath
 permalink: pretty
 
 formsubmit_email: info@klackbergsgarden.se

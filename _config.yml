@@ -5,6 +5,9 @@ url: https://klackbergsgarden.se # the base hostname & protocol, e.g. http://exa
 baseurl: "" # remove the subpath
 permalink: pretty
 
+# Season setting
+season: winter  # winter or summer
+
 formsubmit_email: info@klackbergsgarden.se
 
 # Build settings

@@ -17,6 +17,20 @@ This is the website for Hotel Klackbergsgården, located in Norberg, Sweden. It 
 - JavaScript
 - Bootstrap front-end framework
 
+## Season Configuration
+
+The website supports seasonal content through a season parameter in `_config.yml`. This allows for different images to be displayed based on the season:
+
+- Set `season: winter` for winter-themed images
+- Set `season: summer` for summer-themed images
+
+Images should be organized in the following structure:
+
+images/
+├── winter/
+│ └── [image files]
+└── summer/
+  └── [image files]
 ## Deploying 
 
 This site is deployed on GitHub Pages. Any changes pushed to the `main` branch will be automatically published.
@@ -46,4 +60,4 @@ If you notice any issues or have suggestions for improving the site, please open
 
 ## Contact
 
-For questions about the hotel or bookings, please use the contact information provided on the website. For issues with the website itself, please contact the site administrator. 
+For questions about the hotel or bookings, please use the contact information provided on the website.

@@ -60,4 +60,4 @@ If you notice any issues or have suggestions for improving the site, please open
 
 ## Contact
 
-For questions about the hotel or bookings, please use the contact information provided on the website.
+For questions about the hotel or bookings, please use the contact information provided on the website. 

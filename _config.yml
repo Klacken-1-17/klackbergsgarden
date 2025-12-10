@@ -6,7 +6,7 @@ baseurl: "" # remove the subpath
 permalink: pretty
 
 # Season setting
-season: summer  # winter or summer - the images are in the images/winter or images/summer folder
+season: winter  # winter or summer - the images are in the images/winter or images/summer folder
 
 formsubmit_email: info@klackbergsgarden.se
 
